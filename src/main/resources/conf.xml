@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configurations>
+    <configuration>
+        <servlets>
+            <servlet>
+                <name>index</name>
+                <pattern>/index/*</pattern>
+                <package>com.github.lcafebabe.base.IndexController</package>
+            </servlet>
+        </servlets>
+    </configuration>
+</configurations>
