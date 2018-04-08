@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<servlets>
+    <servlet>
+        <pattern>/api/v1</pattern>
+        <mapping>com.github.Lcafebabe.scalatra.MainServlet</mapping>
+    </servlet>
+</servlets>

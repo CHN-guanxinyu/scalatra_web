@@ -8,7 +8,7 @@ class MainServlet extends ScalatraServlet {
     contentType = "text/html"
   }
 
-  get("/") {
-    println(1)
+  get("/tables/:tblName") {
+    println(params("tblName"))
   }
 }
